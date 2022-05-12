@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>cssMemSlider</title>
 </head>
+
 <body>
-    
+    <div class="main">
+       <div class="main-container">
+        <h1 class="main-title">css mem slider</h1>
+        <div class="slider">
+            <input type="radio" class="slider-toggle" name="slider-toggle" id="slider-toggle-1" checked>
+            <input type="radio" class="slider-toggle" name="slider-toggle" id="slider-toggle-2">
+            <input type="radio" class="slider-toggle" name="slider-toggle" id="slider-toggle-3">
+            <input type="radio" class="slider-toggle" name="slider-toggle" id="slider-toggle-4">
+
+            <ul class="slider-slides">
+                <li class="slider-slide">
+                    <img src="assets/slide-1.jpg" alt="slide-1">
+                </li>
+                <li class="slider-slide">
+                    <img src="assets/slide-2.jpg" alt="slide-2">
+                </li>
+                <li class="slider-slide">
+                    <img src="assets/slide-3.jpg" alt="slide-3">
+                </li>
+                <li class="slider-slide">
+                    <img src="assets/slide-4.jpg" alt="slide-4">
+                </li>
+            </ul>
+
+            <ul class="slider-slides slider-captures">
+                    <li class="slider-slide slider-capture">
+                        <p class="slide-capture">Сейчас Вы увидите мемы</p>
+                    </li>
+                    <li class="slider-slide slider-capture">
+                        <p class="slide-capture">Кем Вы видите себя через 5 лет?</p>
+                    </li>
+                    <li class="slider-slide slider-capture">
+                        <p class="slide-capture">Когда она сказала, что сама заплатит по счету</p>
+                    </li>
+                    <li class="slider-slide slider-capture">
+                        <p class="slide-capture">Ночь перед дедлайном</p>
+                    </li>
+            </ul>
+
+            <div class="slider-controls">
+                <label for="slider-toggle-1" class="slider-control"><span class="visually-hidden"></span></label>
+                <label for="slider-toggle-2" class="slider-control"><span class="visually-hidden"></span></label>
+                <label for="slider-toggle-3" class="slider-control"><span class="visually-hidden"></span></label>
+                <label for="slider-toggle-4" class="slider-control"><span class="visually-hidden"></span></label>
+            </div>
+        </div>
+            <span class="copyright">Rusak Aleksandr &#169 2022</span>
+       </div>
+    </div>
 </body>
+
 </html>
