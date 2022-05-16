@@ -31,7 +31,6 @@ html{
 .slider {
     max-width: 920px;
     height: 100%;
-    /* max-height: 450px; */
     overflow: hidden;
     margin: 0 auto;
     display: flex;
@@ -185,9 +184,14 @@ img {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     margin: 0 auto;
-    text-transform: uppercase;
     text-align: center;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .copyright{
+        font-size: 14px;
+    }
 }
 
 #slider-toggle-1:checked~.slider-controls>.slider-control[for="slider-toggle-1"] {
