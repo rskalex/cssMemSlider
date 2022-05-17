@@ -30,7 +30,7 @@ html{
 
 .slider {
     width: 100%;
-    /* max-width: 920px; */
+    max-width: 920px;
     height: 100%;
     overflow: hidden;
     margin: 0 auto;
